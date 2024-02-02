@@ -19,3 +19,34 @@
 ##### Node.js and npm (v18.11.0)
 ##### MariaDB (Latest V)
 ##### Intellij idea (Latest V)
+
+# Setup Instructions
+## Clone the Repository:
+
+### Copy code - 
+git clone [https://github.com/your-username/customer-management.git](https://github.com/SithumGamage98/Customer-Management-System.git)
+
+## Backend Setup:
+
+### 1.Open the backend directory.(/backend)
+### 2.Configure the database connection in application.properties.(/backend/resources/application.properties)
+### 3.Change the port number , database name , database password (Only if you want)
+### 4.Run the Spring Boot application
+
+bash
+Copy code
+./mvnw spring-boot:run
+Frontend Setup:
+
+Open the frontend directory.
+Install dependencies:
+bash
+Copy code
+npm install
+Start the React development server:
+bash
+Copy code
+npm start
+Access the Application:
+
+Open your browser and navigate to http://localhost:3000 to use the application.
