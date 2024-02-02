@@ -1,0 +1,65 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven directories
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle directories
+.gradle/
+build/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# # Spring Boot configuration file
+# application.properties
+
+# Spring Tool Suite (STS)
+.springBeans
+
+# Temporary files
+*.tmp
+
+# Package file
+*.jar
+
+# Local configuration file
+application-local.properties
+
+# IDE (Eclipse, IntelliJ) configuration
+*.iml
+*.ipr
+*.iws
+
+# Logs
+log/
+logs/
+
+# Thumbnails
+.thumbnail/
+
+# VS Code configuration files
+.vscode/
+
+# Node.js generated files
+node_modules/
+npm-debug.log*
+
+# macOS directory attributes
+.DS_Store
+
+# Thumbnails
+._*
