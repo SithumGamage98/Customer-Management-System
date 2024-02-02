@@ -15,11 +15,11 @@
 
 ### 🔺Getting Started
 #### Prerequisites
-##### Java Development Kit (JDK 8)
-##### Node.js and npm (v18.11.0)
-##### MariaDB (Latest V)
-##### Intellij idea (Latest V)
-##### Postman API tester (Latest V)
+##### ◽Java Development Kit (JDK 8)
+##### ◽Node.js and npm (v18.11.0)
+##### ◽MariaDB (Latest V)
+##### ◽Intellij idea (Latest V)
+##### ◽Postman API tester (Latest V)
 
 # 🔺Setup Instructions
 ## Clone the Repository:
@@ -47,3 +47,7 @@ npm start
 
 ## 🔺Access the Application:
 ### Open your browser and navigate to http://localhost:3000 to use the application.
+
+## Project Snapshots
+![Home](https://github.com/SithumGamage98/Customer-Management-System/assets/100986253/448efbc6-4fc2-4b6f-8242-b99cf91530b5)
+
