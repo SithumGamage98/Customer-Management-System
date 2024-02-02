@@ -22,9 +22,9 @@
 
 # Setup Instructions
 ## Clone the Repository:
-
+bash
 ### Copy code - 
-git clone [https://github.com/your-username/customer-management.git](https://github.com/SithumGamage98/Customer-Management-System.git)
+git clone https://github.com/SithumGamage98/Customer-Management-System.git
 
 ## Backend Setup:
 
