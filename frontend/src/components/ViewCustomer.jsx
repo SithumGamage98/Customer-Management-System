@@ -30,7 +30,6 @@ const ViewCustomer = () => {
       <div className="center-container">
         {/* Display the NIC Image if available */}
         {customer.nicImage && (
-          // eslint-disable-next-line jsx-a11y/img-redundant-alt
           <img
             src={`data:image/jpeg;base64,${customer.nicImage}`}
             alt="NIC Image"
