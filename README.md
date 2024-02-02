@@ -28,20 +28,20 @@ git clone https://github.com/SithumGamage98/Customer-Management-System.git
 
 ## 🔺Backend Setup:
 
-### 1.Open the backend directory.(/backend)
-### 2.Configure the database connection in application.properties.(/backend/resources/application.properties)
-### 3.Change the port number(currently its in: localhost:3307), database name , database password (Only if you want)
-### 4.Run the Spring Boot application
+### 1. Open the backend directory.(/backend)
+### 2. Configure the database connection in application.properties.(/backend/resources/application.properties)
+### 3. Change the port number(currently its in: localhost:3307), database name , database password (Only if you want)
+### 4. Run the Spring Boot application
 ### Copy code - 
 ./mvnw spring-boot:run
 
 ## 🔺Frontend Setup:
 
-### 1.Open the frontend directory.(/frontend)
-### 2.Install dependencies:
+### 1. Open the frontend directory.(/frontend)
+### 2. Install dependencies:
 ### Copy code -
 npm install (npm i)
-### 3.Start the React development server:
+### 3. Start the React development server:
 ### Copy code - 
 npm start
 
