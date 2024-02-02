@@ -1,0 +1,25 @@
+/* src/Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.home-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
