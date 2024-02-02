@@ -57,29 +57,7 @@ public class ExcelHelper {
                 }
                 customer.setFamilyMembers(familyMembers);
 
-                // Addresses (Assuming 4 addresses in columns 11 to 14)
-                List<Address> addresses = new ArrayList<>();
-                for (int cellIndex = 9; cellIndex <= 12; cellIndex += 4) {
-                    String addressLine1 = getStringCellValue(currentRow.getCell(cellIndex));
-                    String addressLine2 = getStringCellValue(currentRow.getCell(cellIndex + 1));
-                    String city = getStringCellValue(currentRow.getCell(cellIndex + 2));
-                    String country = getStringCellValue(currentRow.getCell(cellIndex + 3));
-
-                    if (addressLine1 != null || addressLine2 != null || city != null || country != null) {
-                        Address address = new Address();
-                        address.setAddressLine1(addressLine1);
-                        address.setAddressLine2(addressLine2);
-                        address.setCity(city);
-                        address.setCountry(country);
-                        addresses.add(address);
-                    }
-                }
-                customer.setAddresses(addresses);
-
-                customers.add(customer);
-            }
-
-            return customers;
+               
         } catch (IOException | IllegalStateException ex) {
             throw new RuntimeException("Error reading Excel file: " + ex.getMessage());
         }
