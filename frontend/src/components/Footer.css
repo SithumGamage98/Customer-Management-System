@@ -1,0 +1,21 @@
+/* src/Footer.css */
+
+footer {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #e0e0e0;
+}
