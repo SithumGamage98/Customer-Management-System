@@ -1,4 +1,4 @@
-# Customer Management Web Application
+## Customer Management Web Application
 ### Overview
 #### This repository contains the source code for a Customer Management web application built using Spring Boot, ReactJS, and MariaDB. The application provides a robust solution for managing customer data efficiently.
 
@@ -19,10 +19,10 @@
 ##### Node.js and npm (v18.11.0)
 ##### MariaDB (Latest V)
 ##### Intellij idea (Latest V)
+##### Postman API tester (Latest V)
 
 # Setup Instructions
 ## Clone the Repository:
-bash
 ### Copy code - 
 git clone https://github.com/SithumGamage98/Customer-Management-System.git
 
@@ -30,23 +30,20 @@ git clone https://github.com/SithumGamage98/Customer-Management-System.git
 
 ### 1.Open the backend directory.(/backend)
 ### 2.Configure the database connection in application.properties.(/backend/resources/application.properties)
-### 3.Change the port number , database name , database password (Only if you want)
+### 3.Change the port number(currently its in: localhost:3307), database name , database password (Only if you want)
 ### 4.Run the Spring Boot application
-
-bash
-Copy code
+### Copy code - 
 ./mvnw spring-boot:run
-Frontend Setup:
 
-Open the frontend directory.
-Install dependencies:
-bash
-Copy code
-npm install
-Start the React development server:
-bash
-Copy code
+## Frontend Setup:
+
+### 1.Open the frontend directory.(/frontend)
+### 2.Install dependencies:
+### Copy code -
+npm install (npm i)
+### 3.Start the React development server:
+### Copy code - 
 npm start
-Access the Application:
 
-Open your browser and navigate to http://localhost:3000 to use the application.
+## Access the Application:
+### Open your browser and navigate to http://localhost:3000 to use the application.
