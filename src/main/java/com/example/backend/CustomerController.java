@@ -81,18 +81,6 @@ public class CustomerController {
         }
     }
 
-    @PostMapping("/upload")
-    public ResponseEntity<String> uploadCustomers(@RequestParam("file") MultipartFile file) {
-        try {
-            List<Customer> customers = ExcelHelper.excelToCustomers(file.getInputStream());
-            customerService.createOrUpdateCustomersBulk(customers);
-            return new ResponseEntity<>("File uploaded successfully", HttpStatus.OK);
-        } catch (IOException e) {
-            return new ResponseEntity<>("Error during file upload: " + e.getMessage(), HttpStatus.BAD_REQUEST);
-        }
-    }
-
-
     @DeleteMapping("/{id}")
     public void deleteCustomer(@PathVariable Long id) {
         customerService.deleteCustomer(id);

@@ -1,4 +1,4 @@
-package com.example.backend;
+/*package com.example.backend;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.*;
@@ -84,26 +84,4 @@ public class ExcelHelper {
             throw new RuntimeException("Error reading Excel file: " + ex.getMessage());
         }
     }
-
-    private static String getStringCellValue(Cell cell) {
-        if (cell == null) {
-            return null;
-        }
-
-        switch (cell.getCellType()) {
-            case STRING:
-                return cell.getStringCellValue();
-            case NUMERIC:
-                return String.valueOf((int) cell.getNumericCellValue());
-            case BOOLEAN:
-                return String.valueOf(cell.getBooleanCellValue());
-            default:
-                return null;
-        }
-    }
-
-    private static LocalDate getLocalDateCellValue(Cell cell) {
-        return cell != null ? cell.getLocalDateTimeCellValue().toLocalDate() : null;
-    }
-}
-
+*/
