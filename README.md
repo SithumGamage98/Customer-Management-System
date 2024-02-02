@@ -9,12 +9,13 @@
 #### Responsive UI: A user-friendly and responsive interface designed with ReactJS for optimal user experience.
 
 ### Tech Stack
-Backend: Spring Boot with Java , Maven for robust and scalable server-side development.
-Frontend: ReactJS , HTML , CSS for a dynamic and interactive user interface.
-Database: MariaDB for efficient and reliable data storage.
+#### Backend: Spring Boot with Java , Maven for robust and scalable server-side development.
+#### Frontend: ReactJS , HTML , CSS for a dynamic and interactive user interface.
+#### Database: MariaDB for efficient and reliable data storage.
 
-Getting Started
-Prerequisites
-Java Development Kit (JDK)
-Node.js and npm
-MariaDB
+### Getting Started
+#### Prerequisites
+##### Java Development Kit (JDK 8)
+##### Node.js and npm (v18.11.0)
+##### MariaDB (Latest V)
+##### Intellij idea (Latest V)
